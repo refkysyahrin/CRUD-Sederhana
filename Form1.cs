@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,23 +13,40 @@ namespace CRUD_Sederhana
 {
     public partial class Form1 : Form
     {
+        private string connectionString = "Data Source=LAPTOP-226F54NK\\REFKYSYAHRIN;Initial Catalog=CRUDSederhana;Integrated Security=True";
+
         public Form1()
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        //Event saat pertama kali dimuat
+        private void form1_Load(object sender, EventArgs e)
         {
-
+            LoadData();
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        //Fungsi untuk mengosongkan semua input pada TextBox
+        private void ClearForm()
         {
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtAlamat.Clear();
 
+            //Fokus kembali ke NIM agar user siap memasukan data baru
+            txtNIM.Focus();
         }
-
-        private void label4_Click(object sender, EventArgs e)
+        //Fungsi untuk menampilkan data di DataGridView
+        private void LoadData()
         {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT NIM AS [NIM], Nama, Email, Telepon, Alamat FROM Mahasiswa";
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                }
+            }
 
         }
 
