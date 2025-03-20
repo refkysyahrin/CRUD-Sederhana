@@ -60,9 +60,19 @@ namespace CRUD_Sederhana
             }
 
         }
-
-        private void label3_Click(object sender, EventArgs e)
+        //Fungsi untuk menambahkan data (CREATE)
+        private void btnTambah(object sender, EventArgs e)
         {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    if (txtNIM.Text == "" || txtNama.Text == "" || txtEmail.Text == "" || txtTelepon.Text == "")
+                    {
+                        MessageBox.Show("Harap isi Semua data!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
 
         }
 
