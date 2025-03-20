@@ -101,12 +101,22 @@ namespace CRUD_Sederhana
                     MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        //Fungsi untuk menghapus data (DELETE)
+        private void btnHapus(object sender, EventArgs e)
         {
-
+            if (dgvMahasiswa.SelectedRows.Count > 0)
+            {
+                DialogResult confirm = MessageBox.Show("Yakin ingin menghapus data ini?", 'Konfirmasi', MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm == DialogResult.Yes)
+                {
+                    using (SqlConnection conn =  new SqlConnection(connectionString))
+                    {
+                        try
+                        { String}
+                    }
+                }
+            }
         }
 
         private void button1_Click_1(object sender, EventArgs e)
