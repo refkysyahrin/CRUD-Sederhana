@@ -41,6 +41,7 @@
             this.txtAlamat = new System.Windows.Forms.TextBox();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
+            this.btnUbah = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,9 +56,9 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(438, 108);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(244, 303);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 100);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(127, 47);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // label2
@@ -146,7 +147,7 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(419, 105);
+            this.btnHapus.Location = new System.Drawing.Point(408, 89);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(75, 23);
             this.btnHapus.TabIndex = 12;
@@ -154,11 +155,22 @@
             this.btnHapus.UseVisualStyleBackColor = true;
             this.btnHapus.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // btnUbah
+            // 
+            this.btnUbah.Location = new System.Drawing.Point(408, 132);
+            this.btnUbah.Name = "btnUbah";
+            this.btnUbah.Size = new System.Drawing.Size(75, 23);
+            this.btnUbah.TabIndex = 13;
+            this.btnUbah.Text = "Ubah";
+            this.btnUbah.UseVisualStyleBackColor = true;
+            this.btnUbah.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 450);
+            this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.txtAlamat);
@@ -194,6 +206,7 @@
         private System.Windows.Forms.TextBox txtAlamat;
         private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnHapus;
+        private System.Windows.Forms.Button btnUbah;
     }
 }
 
