@@ -114,7 +114,7 @@ namespace CRUD_Sederhana
                     {
                         try
                         {
-                            string.nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString();
+                            string nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString();
                             conn.Open();
                             string query = "DELETE FROM Mahasiswa WHERE NIM = @NIM";
 
@@ -147,10 +147,13 @@ namespace CRUD_Sederhana
                 MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
-        private void button1_Click_1(object sender, EventArgs e)
+        //Fungsi untuk merefresh tampilan DataGridView
+        private void btnRefresh(object sender, EventArgs e)
         {
+            LoadData();
 
+            //Debugging: Cek jumlah kolom dan baris
+            MessageBox.Show($"Jumlah Kolom: {dgvMahasiswa.ColumnCount}\nJumlah Baris: {dgvMahasiswa.RowCount}", "Debugging DataGridView", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button1_Click_2(object sender, EventArgs e)
