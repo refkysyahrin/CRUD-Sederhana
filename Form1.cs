@@ -127,7 +127,11 @@ namespace CRUD_Sederhana
                                 {
                                     MessageBox.Show("data Berhasil Dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     LoadData();
-                                    ClearForm();
+                                    ClearForm(); // Aouto Clear setelah data di hapus
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Data tidak ditemukan atau gagal!", " Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 }
                             }
                         }
