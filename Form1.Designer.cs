@@ -35,7 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtNIM = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.txt = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -104,12 +104,12 @@
             this.txtNIM.Size = new System.Drawing.Size(129, 22);
             this.txtNIM.TabIndex = 6;
             // 
-            // textBox2
+            // txtNama
             // 
-            this.textBox2.Location = new System.Drawing.Point(168, 86);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(129, 22);
-            this.textBox2.TabIndex = 7;
+            this.txtNama.Location = new System.Drawing.Point(168, 86);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(129, 22);
+            this.txtNama.TabIndex = 7;
             // 
             // textBox3
             // 
@@ -140,7 +140,7 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.txt);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNama);
             this.Controls.Add(this.txtNIM);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -164,7 +164,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtNIM;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox5;
