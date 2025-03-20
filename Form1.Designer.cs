@@ -36,7 +36,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtNIM = new System.Windows.Forms.TextBox();
             this.txtNama = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.txt = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -111,12 +111,12 @@
             this.txtNama.Size = new System.Drawing.Size(129, 22);
             this.txtNama.TabIndex = 7;
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(168, 129);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(129, 22);
-            this.textBox3.TabIndex = 8;
+            this.txtEmail.Location = new System.Drawing.Point(168, 129);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(129, 22);
+            this.txtEmail.TabIndex = 8;
             // 
             // txt
             // 
@@ -139,7 +139,7 @@
             this.ClientSize = new System.Drawing.Size(634, 450);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.txt);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNama);
             this.Controls.Add(this.txtNIM);
             this.Controls.Add(this.label5);
@@ -165,7 +165,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtNIM;
         private System.Windows.Forms.TextBox txtNama;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox5;
     }
