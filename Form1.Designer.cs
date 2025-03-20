@@ -1,4 +1,4 @@
-﻿namespace CRUD_Sederhana
+﻿namespace CRUD_Sederhanaa
 {
     partial class Form1
     {
@@ -28,181 +28,161 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtNIM = new System.Windows.Forms.TextBox();
-            this.txtNama = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtTelepon = new System.Windows.Forms.TextBox();
-            this.txtAlamat = new System.Windows.Forms.TextBox();
-            this.btnTambah = new System.Windows.Forms.Button();
-            this.btnHapus = new System.Windows.Forms.Button();
-            this.btnUbah = new System.Windows.Forms.Button();
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.dgvMahasiswa = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMahasiswa)).BeginInit();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.Tambah = new System.Windows.Forms.Button();
+            this.Hapus = new System.Windows.Forms.Button();
+            this.Ubah = new System.Windows.Forms.Button();
+            this.Refresh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // label6
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(71, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "NIM";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(25, 40);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 16);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "NIM";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // label2
+            // label7
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(71, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nama";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(25, 84);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 16);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Nama";
             // 
-            // label3
+            // label8
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(71, 129);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Email";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(25, 124);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(41, 16);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Email";
             // 
-            // label4
+            // label9
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(71, 176);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 16);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Telepon";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(25, 161);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 16);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "Telepon";
             // 
-            // label5
+            // label10
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(71, 217);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 16);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Alamat";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(25, 200);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(49, 16);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Alamat";
             // 
-            // txtNIM
+            // textBox6
             // 
-            this.txtNIM.Location = new System.Drawing.Point(168, 48);
-            this.txtNIM.Name = "txtNIM";
-            this.txtNIM.Size = new System.Drawing.Size(203, 22);
-            this.txtNIM.TabIndex = 6;
+            this.textBox6.Location = new System.Drawing.Point(114, 40);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 22);
+            this.textBox6.TabIndex = 5;
             // 
-            // txtNama
+            // textBox7
             // 
-            this.txtNama.Location = new System.Drawing.Point(168, 86);
-            this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(203, 22);
-            this.txtNama.TabIndex = 7;
+            this.textBox7.Location = new System.Drawing.Point(114, 84);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.TabIndex = 6;
             // 
-            // txtEmail
+            // textBox8
             // 
-            this.txtEmail.Location = new System.Drawing.Point(168, 129);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(203, 22);
-            this.txtEmail.TabIndex = 8;
+            this.textBox8.Location = new System.Drawing.Point(114, 124);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 22);
+            this.textBox8.TabIndex = 7;
             // 
-            // txtTelepon
+            // textBox9
             // 
-            this.txtTelepon.Location = new System.Drawing.Point(168, 170);
-            this.txtTelepon.Name = "txtTelepon";
-            this.txtTelepon.Size = new System.Drawing.Size(203, 22);
-            this.txtTelepon.TabIndex = 9;
+            this.textBox9.Location = new System.Drawing.Point(114, 163);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 22);
+            this.textBox9.TabIndex = 8;
             // 
-            // txtAlamat
+            // textBox10
             // 
-            this.txtAlamat.Location = new System.Drawing.Point(168, 214);
-            this.txtAlamat.Name = "txtAlamat";
-            this.txtAlamat.Size = new System.Drawing.Size(203, 22);
-            this.txtAlamat.TabIndex = 10;
+            this.textBox10.Location = new System.Drawing.Point(114, 200);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 22);
+            this.textBox10.TabIndex = 9;
             // 
-            // btnTambah
+            // Tambah
             // 
-            this.btnTambah.Location = new System.Drawing.Point(468, 63);
-            this.btnTambah.Name = "btnTambah";
-            this.btnTambah.Size = new System.Drawing.Size(75, 23);
-            this.btnTambah.TabIndex = 11;
-            this.btnTambah.Text = "Tambah";
-            this.btnTambah.UseVisualStyleBackColor = true;
-            this.btnTambah.Click += new System.EventHandler(this.button1_Click);
+            this.Tambah.Location = new System.Drawing.Point(276, 47);
+            this.Tambah.Name = "Tambah";
+            this.Tambah.Size = new System.Drawing.Size(75, 23);
+            this.Tambah.TabIndex = 10;
+            this.Tambah.Text = "Tambah";
+            this.Tambah.UseVisualStyleBackColor = true;
+            this.Tambah.Click += new System.EventHandler(this.BtnTambah);
             // 
-            // btnHapus
+            // Hapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(468, 111);
-            this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(75, 23);
-            this.btnHapus.TabIndex = 12;
-            this.btnHapus.Text = "Hapus";
-            this.btnHapus.UseVisualStyleBackColor = true;
-            this.btnHapus.Click += new System.EventHandler(this.button1_Click_1);
+            this.Hapus.Location = new System.Drawing.Point(276, 84);
+            this.Hapus.Name = "Hapus";
+            this.Hapus.Size = new System.Drawing.Size(75, 23);
+            this.Hapus.TabIndex = 11;
+            this.Hapus.Text = "Hapus";
+            this.Hapus.UseVisualStyleBackColor = true;
+            this.Hapus.Click += new System.EventHandler(this.BtnHapus);
             // 
-            // btnUbah
+            // Ubah
             // 
-            this.btnUbah.Location = new System.Drawing.Point(468, 152);
-            this.btnUbah.Name = "btnUbah";
-            this.btnUbah.Size = new System.Drawing.Size(75, 23);
-            this.btnUbah.TabIndex = 13;
-            this.btnUbah.Text = "Ubah";
-            this.btnUbah.UseVisualStyleBackColor = true;
-            this.btnUbah.Click += new System.EventHandler(this.button1_Click_2);
+            this.Ubah.Location = new System.Drawing.Point(276, 124);
+            this.Ubah.Name = "Ubah";
+            this.Ubah.Size = new System.Drawing.Size(75, 23);
+            this.Ubah.TabIndex = 12;
+            this.Ubah.Text = "Ubah";
+            this.Ubah.UseVisualStyleBackColor = true;
+            this.Ubah.Click += new System.EventHandler(this.button6_Click);
             // 
-            // btnRefresh
+            // Refresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(468, 194);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(76, 26);
-            this.btnRefresh.TabIndex = 14;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.button1_Click_3);
-            // 
-            // dgvMahasiswa
-            // 
-            this.dgvMahasiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMahasiswa.Location = new System.Drawing.Point(75, 278);
-            this.dgvMahasiswa.Name = "dgvMahasiswa";
-            this.dgvMahasiswa.RowHeadersWidth = 51;
-            this.dgvMahasiswa.RowTemplate.Height = 24;
-            this.dgvMahasiswa.Size = new System.Drawing.Size(469, 150);
-            this.dgvMahasiswa.TabIndex = 15;
+            this.Refresh.Location = new System.Drawing.Point(276, 163);
+            this.Refresh.Name = "Refresh";
+            this.Refresh.Size = new System.Drawing.Size(75, 23);
+            this.Refresh.TabIndex = 13;
+            this.Refresh.Text = "Refresh";
+            this.Refresh.UseVisualStyleBackColor = true;
+            this.Refresh.Click += new System.EventHandler(this.BtnRefresh);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 475);
-            this.Controls.Add(this.dgvMahasiswa);
-            this.Controls.Add(this.btnRefresh);
-            this.Controls.Add(this.btnUbah);
-            this.Controls.Add(this.btnHapus);
-            this.Controls.Add(this.btnTambah);
-            this.Controls.Add(this.txtAlamat);
-            this.Controls.Add(this.txtTelepon);
-            this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.txtNama);
-            this.Controls.Add(this.txtNIM);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(527, 420);
+            this.Controls.Add(this.Refresh);
+            this.Controls.Add(this.Ubah);
+            this.Controls.Add(this.Hapus);
+            this.Controls.Add(this.Tambah);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMahasiswa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,6 +205,35 @@
         private System.Windows.Forms.Button btnUbah;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.DataGridView dgvMahasiswa;
+        private System.Windows.Forms.Label NIM;
+        private System.Windows.Forms.Label Nama;
+        private System.Windows.Forms.Label Email;
+        private System.Windows.Forms.Label Telepon;
+        private System.Windows.Forms.Label Alamat;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Button Tambah;
+        private System.Windows.Forms.Button Hapus;
+        private System.Windows.Forms.Button Ubah;
+        private System.Windows.Forms.Button Refresh;
     }
 }
 
