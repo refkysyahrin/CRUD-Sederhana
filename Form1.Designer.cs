@@ -39,6 +39,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtTelepon = new System.Windows.Forms.TextBox();
             this.txtAlamat = new System.Windows.Forms.TextBox();
+            this.btnTambah = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -132,11 +133,22 @@
             this.txtAlamat.Size = new System.Drawing.Size(129, 22);
             this.txtAlamat.TabIndex = 10;
             // 
+            // btnTambah
+            // 
+            this.btnTambah.Location = new System.Drawing.Point(408, 44);
+            this.btnTambah.Name = "btnTambah";
+            this.btnTambah.Size = new System.Drawing.Size(75, 23);
+            this.btnTambah.TabIndex = 11;
+            this.btnTambah.Text = "Tambah";
+            this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 450);
+            this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.txtAlamat);
             this.Controls.Add(this.txtTelepon);
             this.Controls.Add(this.txtEmail);
@@ -168,6 +180,7 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtTelepon;
         private System.Windows.Forms.TextBox txtAlamat;
+        private System.Windows.Forms.Button btnTambah;
     }
 }
 
