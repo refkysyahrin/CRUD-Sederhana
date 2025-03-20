@@ -37,7 +37,7 @@
             this.txtNIM = new System.Windows.Forms.TextBox();
             this.txtNama = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txt = new System.Windows.Forms.TextBox();
+            this.txtTelepon = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -118,12 +118,12 @@
             this.txtEmail.Size = new System.Drawing.Size(129, 22);
             this.txtEmail.TabIndex = 8;
             // 
-            // txt
+            // txtTelepon
             // 
-            this.txt.Location = new System.Drawing.Point(168, 170);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(129, 22);
-            this.txt.TabIndex = 9;
+            this.txtTelepon.Location = new System.Drawing.Point(168, 170);
+            this.txtTelepon.Name = "txtTelepon";
+            this.txtTelepon.Size = new System.Drawing.Size(129, 22);
+            this.txtTelepon.TabIndex = 9;
             // 
             // textBox5
             // 
@@ -138,7 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 450);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.txt);
+            this.Controls.Add(this.txtTelepon);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNama);
             this.Controls.Add(this.txtNIM);
@@ -166,7 +166,7 @@
         private System.Windows.Forms.TextBox txtNIM;
         private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txt;
+        private System.Windows.Forms.TextBox txtTelepon;
         private System.Windows.Forms.TextBox textBox5;
     }
 }
