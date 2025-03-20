@@ -34,10 +34,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNIM = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -97,12 +97,12 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Alamat";
             // 
-            // textBox1
+            // txtNIM
             // 
-            this.textBox1.Location = new System.Drawing.Point(168, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(129, 22);
-            this.textBox1.TabIndex = 6;
+            this.txtNIM.Location = new System.Drawing.Point(168, 48);
+            this.txtNIM.Name = "txtNIM";
+            this.txtNIM.Size = new System.Drawing.Size(129, 22);
+            this.txtNIM.TabIndex = 6;
             // 
             // textBox2
             // 
@@ -118,12 +118,12 @@
             this.textBox3.Size = new System.Drawing.Size(129, 22);
             this.textBox3.TabIndex = 8;
             // 
-            // textBox4
+            // txt
             // 
-            this.textBox4.Location = new System.Drawing.Point(168, 170);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(129, 22);
-            this.textBox4.TabIndex = 9;
+            this.txt.Location = new System.Drawing.Point(168, 170);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(129, 22);
+            this.txt.TabIndex = 9;
             // 
             // textBox5
             // 
@@ -136,12 +136,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1151, 450);
+            this.ClientSize = new System.Drawing.Size(634, 450);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNIM);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -163,10 +163,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNIM;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt;
         private System.Windows.Forms.TextBox textBox5;
     }
 }
