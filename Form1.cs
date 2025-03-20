@@ -156,9 +156,19 @@ namespace CRUD_Sederhana
             MessageBox.Show($"Jumlah Kolom: {dgvMahasiswa.ColumnCount}\nJumlah Baris: {dgvMahasiswa.RowCount}", "Debugging DataGridView", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button1_Click_2(object sender, EventArgs e)
+        private void dgvMahasiswa_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];
 
+                //Coba gunakan indeks jika "NIM" tidak ditemukan
+                txtNIM.Text = row.Cells[0].Value.ToString();
+                txtNama.Text = row.Cells[1].Value.ToString();
+                txtEmail.Text = row.Cells[2].Value.ToString();
+                txtTelepon.Text = row.Cells[3].Value.ToString();
+                txtAlamat.Text = row.Cells[4].Value.ToString();
+            }
         }
 
         private void button1_Click_3(object sender, EventArgs e)
