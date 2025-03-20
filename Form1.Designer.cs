@@ -48,7 +48,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 51);
+            this.label1.Location = new System.Drawing.Point(71, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 16);
             this.label1.TabIndex = 0;
@@ -57,15 +57,15 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(244, 303);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(74, 284);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(127, 47);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(361, 134);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 89);
+            this.label2.Location = new System.Drawing.Point(71, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 2;
@@ -75,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 132);
+            this.label3.Location = new System.Drawing.Point(71, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 3;
@@ -85,7 +85,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(53, 176);
+            this.label4.Location = new System.Drawing.Point(71, 176);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 16);
             this.label4.TabIndex = 4;
@@ -95,7 +95,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(53, 220);
+            this.label5.Location = new System.Drawing.Point(71, 217);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 16);
             this.label5.TabIndex = 5;
@@ -105,40 +105,40 @@
             // 
             this.txtNIM.Location = new System.Drawing.Point(168, 48);
             this.txtNIM.Name = "txtNIM";
-            this.txtNIM.Size = new System.Drawing.Size(129, 22);
+            this.txtNIM.Size = new System.Drawing.Size(203, 22);
             this.txtNIM.TabIndex = 6;
             // 
             // txtNama
             // 
             this.txtNama.Location = new System.Drawing.Point(168, 86);
             this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(129, 22);
+            this.txtNama.Size = new System.Drawing.Size(203, 22);
             this.txtNama.TabIndex = 7;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(168, 129);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(129, 22);
+            this.txtEmail.Size = new System.Drawing.Size(203, 22);
             this.txtEmail.TabIndex = 8;
             // 
             // txtTelepon
             // 
             this.txtTelepon.Location = new System.Drawing.Point(168, 170);
             this.txtTelepon.Name = "txtTelepon";
-            this.txtTelepon.Size = new System.Drawing.Size(129, 22);
+            this.txtTelepon.Size = new System.Drawing.Size(203, 22);
             this.txtTelepon.TabIndex = 9;
             // 
             // txtAlamat
             // 
             this.txtAlamat.Location = new System.Drawing.Point(168, 214);
             this.txtAlamat.Name = "txtAlamat";
-            this.txtAlamat.Size = new System.Drawing.Size(129, 22);
+            this.txtAlamat.Size = new System.Drawing.Size(203, 22);
             this.txtAlamat.TabIndex = 10;
             // 
             // btnTambah
             // 
-            this.btnTambah.Location = new System.Drawing.Point(408, 44);
+            this.btnTambah.Location = new System.Drawing.Point(468, 63);
             this.btnTambah.Name = "btnTambah";
             this.btnTambah.Size = new System.Drawing.Size(75, 23);
             this.btnTambah.TabIndex = 11;
@@ -148,7 +148,7 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(408, 89);
+            this.btnHapus.Location = new System.Drawing.Point(468, 111);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(75, 23);
             this.btnHapus.TabIndex = 12;
@@ -158,7 +158,7 @@
             // 
             // btnUbah
             // 
-            this.btnUbah.Location = new System.Drawing.Point(408, 132);
+            this.btnUbah.Location = new System.Drawing.Point(468, 152);
             this.btnUbah.Name = "btnUbah";
             this.btnUbah.Size = new System.Drawing.Size(75, 23);
             this.btnUbah.TabIndex = 13;
@@ -168,9 +168,9 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(408, 191);
+            this.btnRefresh.Location = new System.Drawing.Point(468, 194);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(76, 45);
+            this.btnRefresh.Size = new System.Drawing.Size(76, 26);
             this.btnRefresh.TabIndex = 14;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -180,7 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 450);
+            this.ClientSize = new System.Drawing.Size(634, 475);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnHapus);
