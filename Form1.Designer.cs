@@ -38,7 +38,7 @@
             this.txtNama = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtTelepon = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtAlamat = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -125,19 +125,19 @@
             this.txtTelepon.Size = new System.Drawing.Size(129, 22);
             this.txtTelepon.TabIndex = 9;
             // 
-            // textBox5
+            // txtAlamat
             // 
-            this.textBox5.Location = new System.Drawing.Point(168, 214);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(129, 22);
-            this.textBox5.TabIndex = 10;
+            this.txtAlamat.Location = new System.Drawing.Point(168, 214);
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(129, 22);
+            this.txtAlamat.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 450);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtAlamat);
             this.Controls.Add(this.txtTelepon);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNama);
@@ -167,7 +167,7 @@
         private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtTelepon;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtAlamat;
     }
 }
 
